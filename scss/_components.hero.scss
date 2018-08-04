@@ -1,0 +1,31 @@
+/*
+    -----
+    Hero styles
+    -----
+*/
+
+.c-hero {
+    background-size: cover;
+    background: url("/img/png/hero-homepage.png") no-repeat center center;
+    width: 100%;
+    height: 92vh;
+    position: relative;
+}
+
+.c-hero__vertical {
+    position: absolute;
+    left: 0;
+    bottom: -62px;
+}
+
+.c-hero__action {
+    position: absolute;
+    bottom: -29px;
+    right: 100px;
+}
+
+.c-hero__menu {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
