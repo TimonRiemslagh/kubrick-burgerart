@@ -20,35 +20,12 @@ section: home
 </div>
 
 <div class="container">
-
     <div class="c-row">
-
-        <div class="c-image-text c-image-text--left">
-            <div class="c-image-text__image-wrapper">
-                <img class="c-image-text__image " src="/img/png/smiling-waiter.png" alt="">
-            </div>
-
-
-            <div class="c-image-text__content d-flex align-items-center">
-                <div>
-                    <h2>Lorem ipsum dolor sit amet</h2>
-
-                    <p>
-                        Interdum et malesuada fames ac ante ipsum primis in faucibus. Class aptent taciti sociosqu ad
-                        litora torquent per conubia nostra, per inceptos himenaeos.
-                    </p>
-
-                    <p>
-                        Interdum et malesuada fames ac ante ipsum primis in faucibus. Class aptent taciti sociosqu ad
-                        litora torquent per conubia nostra, per inceptos himenaeos.
-                    </p>
-
-                    <a class="c-image-text__readmore" href="">meer</a>
-                </div>
-            </div>
-
-        </div>
+        {% include image-text.html direction="left" %}
     </div>
 
+    <div class="c-row">
+        {% include image-text.html direction="right" %}
+    </div>
 </div>
 
