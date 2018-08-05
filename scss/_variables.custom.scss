@@ -177,7 +177,6 @@ $link-hover-decoration:     underline !default;
 
 $paragraph-margin-bottom:   1rem !default;
 
-
 // Grid breakpoints
 //
 // Define the minimum dimensions at which your layout will change,
@@ -263,7 +262,7 @@ $transition-collapse:         height .35s ease !default;
     url("/fonts/TSTARPRO/TSTARPRO-Regular.woff") format("woff");
 }
 
-$font-family-sans-serif:      "TSTARPRO", sans-serif;
+$font-family-sans-serif:      "TSTARPRO light", sans-serif;
 $font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
 $font-family-base:            $font-family-sans-serif !default;
 // stylelint-enable value-keyword-case

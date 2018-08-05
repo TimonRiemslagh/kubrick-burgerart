@@ -1,0 +1,17 @@
+/*
+    -----
+    Masterpiece
+    -----
+*/
+
+.c-masterpiece {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.c-masterpiece__image {
+    width: 100%;
+    height: auto;
+}

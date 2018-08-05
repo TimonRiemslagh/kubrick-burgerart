@@ -13,7 +13,7 @@ section: home
 
     <a href="" class="c-button c-button--primary c-button--md c-hero__action">Book our foodtruck</a>
 
-    <a href="" class="c-button c-button--menu c-hero__menu">
+    <a href="" class="c-button c-button--menu c-hero__menu u-light">
         menu
         <img class="c-button__menu" src="/img/svg/menu.svg" alt="">
     </a>
@@ -27,5 +27,29 @@ section: home
     <div class="c-row">
         {% include image-text.html direction="right" %}
     </div>
+
+    <div class="c-row">
+        <h2 class="text-center mb-5">Onze meesterwerken</h2>
+
+        <div class="d-sm-flex mb-4">
+
+            <div class="col-12 col-sm-4 mb-4">
+                {% include masterpiece.html image="/img/png/michelangelo.png" title="Michelangelo" text="Burger, rode pesto, mozzarella, zongedroogde tomaatjes en rucola" %}
+            </div>
+
+            <div class="col-12 col-sm-4 mb-4">
+                {% include masterpiece.html image="/img/png/monet.png" title="Monet" text="Burger, brie, appel, pijnboompitten, honing en rucola" %}
+            </div>
+
+            <div class="col-12 col-sm-4 mb-4">
+                {% include masterpiece.html image="/img/png/bacon.png" title="Francis bacon" text="Burger, cheddar, spek, gedroogde ui, ketchup of mayonaise en rucola" %}
+            </div>
+
+        </div>
+        <div class="text-center">
+            <a href="" class="c-button c-button--primary c-button--lg">bekijk het volledige burgermenu</a>
+        </div>
+    </div>
+
 </div>
 

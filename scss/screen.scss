@@ -28,8 +28,13 @@
     -----
 */
 
+@import "general.paragraphs";
+
 @import "components.hero";
 @import "components.logo";
 @import "components.buttons";
 @import "components.image-text";
 @import "components.rows";
+@import "components.masterpiece";
+
+@import "utilities.font-weight";

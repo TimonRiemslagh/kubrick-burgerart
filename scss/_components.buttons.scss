@@ -8,8 +8,6 @@
     border: 0;
     border-radius: 0;
     font-family: $headings-font-family;
-    display: flex;
-    align-items: center;
     letter-spacing: 3px;
 
     &:hover {
@@ -27,15 +25,15 @@
     background-color: $white;
 }
 
-.c-button--lg {
-    padding: 20px 30px 15px 20px;
-    letter-spacing: 4px;
-    font-size: 14px;
-}
-
 .c-button--md {
     padding: 20px 30px 15px 30px;
     font-size: 16px;
+}
+
+.c-button--lg {
+    letter-spacing: 4px;
+    padding: 20px 40px 15px 40px;
+    font-size: 14px;
 }
 
 .c-button--primary {
@@ -52,12 +50,10 @@
 
     .c-button__arrow {
         height: 13px;
-        margin-bottom: 4px;
         margin-right: 20px;
     }
 
     .c-button__menu {
         height: 25px;
-        margin-bottom: 4px;
         margin-left: 10px;
     }
