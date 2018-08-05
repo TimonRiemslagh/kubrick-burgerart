@@ -1,0 +1,86 @@
+/*
+    -----
+    Image with text left/right component
+    -----
+*/
+
+$overflow-top: 40px;
+
+.c-image-text {
+    @include media-breakpoint-up(lg) {
+        display: flex;
+        margin-top: $overflow-top;
+    }
+}
+
+.c-image-text--left {
+    .c-image-text__image {
+        order: 1;
+    }
+
+    .c-image-text__content {
+        order: 2;
+    }
+}
+
+.c-image-text--right {
+    .c-image-text__image {
+        order: 2;
+    }
+
+    .c-image-text__content {
+        order: 1;
+    }
+}
+
+.c-image-text__content {
+    padding: 40px;
+    background: url('/img/png/paper-texture.png') repeat;
+
+    margin-left: 0px;
+
+    @include media-breakpoint-up(sm) {
+        margin-left: 80px;
+    }
+
+
+    @include media-breakpoint-up(lg) {
+        width: 65%;
+        margin-left: 0;
+    }
+}
+
+.c-image-text__image {
+    width: 100%;
+    padding-right: 0;
+
+    @include media-breakpoint-up(sm) {
+        padding-right: 80px;
+    }
+
+    @include media-breakpoint-up(lg) {
+        padding-right: 0;
+        margin-top: -$overflow-top;
+        margin-bottom: $overflow-top;
+    }
+}
+
+.c-image-text__image-wrapper {
+    position: relative;
+
+    &:after {
+        content: '';
+        background: url('/img/png/paper-texture.png') repeat;
+        width: 70%;
+        height: 30%;
+
+        @include media-breakpoint-up(lg) {
+            height: 100%;
+        }
+
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+}
