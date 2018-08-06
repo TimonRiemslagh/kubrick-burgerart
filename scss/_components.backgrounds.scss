@@ -1,0 +1,24 @@
+/*
+    -----
+    Backgrounds
+    -----
+*/
+
+.c-background-secondary {
+    background: $secondary;
+    color: $white;
+}
+
+.c-background-primary {
+    background: $primary;
+}
+
+.c-background-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.c-background-image--sm {
+    min-height: 250px;
+}

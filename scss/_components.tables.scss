@@ -1,0 +1,23 @@
+/*
+    -----
+    Tables
+    -----
+*/
+
+.c-table {
+    td {
+        border-bottom: 1px solid $primary;
+        padding: .75em 0;
+    }
+    .c-table__date {
+        width: 7em;
+    }
+
+    .c-table__event {
+        width: 12em;
+    }
+
+    .c-table__place {
+        width: 7em;
+    }
+}
