@@ -1,9 +1,17 @@
 /*
     -----
-    Rows
+    Component: rows
     -----
 */
 
 .c-row {
-    padding-top: 100px;
+    padding: 4em 2em;
+
+    @include media-breakpoint-down(sm) {
+        padding: 3em 1em;
+    }
+}
+
+.c-row--stacked {
+    padding-bottom: 0;
 }
