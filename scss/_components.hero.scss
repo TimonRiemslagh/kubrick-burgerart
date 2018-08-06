@@ -23,7 +23,11 @@
 .c-hero__action {
     position: absolute;
     bottom: -29px;
-    right: 100px;
+    right: 30px;
+
+    @include media-breakpoint-up(sm) {
+        right: 100px;
+    }
 }
 
 .c-hero__menu {

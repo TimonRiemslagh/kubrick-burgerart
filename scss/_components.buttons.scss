@@ -16,6 +16,12 @@
     }
 }
 
+.c-button--inverted {
+    background-color: $white;
+    border: 3px solid $secondary;
+    color: $secondary;
+}
+
 .c-button--vertical {
     transform: rotate(-90deg);
     transform-origin: left top 0;
@@ -24,6 +30,11 @@
 .c-button--white {
     color: $secondary;
     background-color: $white;
+}
+
+.c-button--sm {
+    padding: 10px 20px 5px 20px;
+    font-size: 14px;
 }
 
 .c-button--md {
