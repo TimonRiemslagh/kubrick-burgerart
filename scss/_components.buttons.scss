@@ -9,6 +9,7 @@
     border-radius: 0;
     font-family: $headings-font-family;
     letter-spacing: 3px;
+    display: inline-block;
 
     &:hover {
         text-decoration: none;
@@ -39,6 +40,11 @@
 .c-button--primary {
     background-color: $primary;
     color: $secondary;
+}
+
+.c-button--secondary {
+    background-color: $secondary;
+    color: $white;
 }
 
 .c-button--menu {
