@@ -1,0 +1,52 @@
+---
+layout: default
+title: Homepage
+section: home
+---
+
+
+
+<div class="c-hero c-hero--secondary">
+
+    <div class="c-row c-row--sm">
+        <div class="text-center">
+            <img class="c-logo-small c-logo-small--about" src="/img/svg/logo-small-white.svg" alt="">
+
+            <h1 class="c-title-page">Burger art people</h1>
+        </div>
+    </div>
+
+    <a href="" class="c-button c-button--vertical c-button--primary c-button--lg c-hero-secondary__vertical">
+        <img class="c-button__arrow" src="/img/svg/arrow-left.svg" alt=""> About
+    </a>
+
+    <a href="" class="c-button c-button--menu c-hero__menu u-light js-show-sidebar" data-target=".js-sidebar" data-close=".js-close-sidebar" data-background=".js-sidebar-background">
+        menu
+        <img class="c-button__menu" src="/img/svg/menu.svg" alt="">
+    </a>
+</div>
+
+{% include navigation.html %}
+
+<div class="o-container">
+    <div class="c-row c-row--stacked">
+        {% include image-text.html direction="left" %}
+    </div>
+
+    <div class="c-row">
+        {% include image-text.html direction="right" %}
+    </div>
+</div>
+
+<div class="c-background-primary d-flex align-items-center justify-content-center">
+    <div class="c-row">
+        <div class="text-center">
+            <img class="c-logo-small mb-4" src="/img/svg/logo-small.svg" alt="">
+            <h2 class="u-letter-spacing">festival, verjaardag, feestje? </h2>
+
+            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas urna lorem,  congue ullamcorper nunc auctor, dignissim euismod augue.</p>
+
+            <a href="" class="c-button c-button--secondary c-button--lg">bekijk het volledige burgermenu</a>
+        </div>
+    </div>
+</div>

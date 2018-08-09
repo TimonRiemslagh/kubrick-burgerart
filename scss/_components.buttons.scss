@@ -25,6 +25,8 @@
 .c-button--vertical {
     transform: rotate(-90deg);
     transform-origin: left top 0;
+    width: 350px;
+    text-align: center;
 }
 
 .c-button--white {
@@ -67,7 +69,8 @@
 
     .c-button__arrow {
         height: 13px;
-        margin-right: 20px;
+        position: absolute;
+        left: 40px;
     }
 
     .c-button__menu {

@@ -6,18 +6,33 @@
 */
 
 .c-hero {
-    background-size: cover;
-    background: url("/img/png/hero-homepage.png") no-repeat center center;
     width: 100%;
-    height: 92vh;
     position: relative;
     margin-bottom: 30px;
 }
 
+.c-hero--homepage {
+    height: 92vh;
+    background-size: cover;
+    background: url("/img/png/hero-homepage.png") no-repeat center center;
+}
+
+.c-hero--secondary {
+    background: $secondary;
+}
+
 .c-hero__vertical {
+    z-index: 1;
     position: absolute;
     left: 0;
     bottom: -62px;
+}
+
+.c-hero-secondary__vertical {
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    bottom: -310px;
 }
 
 .c-hero__action {
