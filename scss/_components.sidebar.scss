@@ -6,7 +6,7 @@
 .sidebar {
     overflow: auto;
     position: fixed;
-    z-index: 1;
+    z-index: 999;
     top: 0;
     left: 0;
     right: 0;
@@ -22,6 +22,17 @@
         right: 0;
         left: auto;
     }
+}
+
+.sidebar-background {
+    display: none;
+    position: fixed;
+    z-index: 998;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.6);
 }
 
 .sidebar-content {
