@@ -1,0 +1,28 @@
+/*
+    -----
+    Components: navigation
+    -----
+*/
+
+.c-nav-link {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 300;
+    text-align: right;
+    margin-bottom: .5em;
+    display: block;
+
+    &:hover {
+        text-shadow: 1px 0 0 currentColor;
+        text-decoration: none;
+    }
+
+    &,
+    &:hover,
+    &:active,
+    &:focus,
+    &:visited {
+        color: white;
+    }
+}

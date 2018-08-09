@@ -1,0 +1,75 @@
+/*
+    Components: sidebar
+    The menu sidebar
+*/
+
+.sidebar {
+    overflow: auto;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    width: 100vw;
+    opacity: 0;
+    //background: linear-gradient(to right, rgba(theme-color('secondary-x-dark'), 0), rgba(theme-color('secondary-x-dark'), .5));
+    // background: red;
+    transform: translateX(100%);
+
+    @include media-breakpoint-up(sm) {
+        width: 400px;
+        right: 0;
+        left: auto;
+    }
+}
+
+.sidebar-content {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $secondary;
+}
+
+.sidebar-close {
+    position: absolute;
+    top: 3em;
+    right: 3em;
+    width: 32px;
+}
+
+.sidebar-slide-in {
+    animation: slide-in-right .3s forwards;
+}
+
+@keyframes slide-in-right {
+    from {
+        z-index: -1;
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        z-index: 99999;
+        opacity: 1;
+        transform: translateX(0px);
+        pointer-events: auto;
+    }
+}
+
+.sidebar-slide-out {
+    animation: slide-out-right .3s forwards;
+}
+
+@keyframes slide-out-right {
+    from {
+        opacity: 1;
+        transform: translateX(0px);
+        z-index: 99999;
+    }
+    to {
+        opacity: 0;
+        transform: translateX(100%);
+        z-index: -1;
+    }
+}

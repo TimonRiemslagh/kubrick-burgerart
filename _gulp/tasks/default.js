@@ -10,6 +10,5 @@ var gulp = require('gulp'),
 gulp.task('default', [
     'dependencies',
     'scss',
-    'js',
     'jekyll--build'
 ]);

@@ -5,8 +5,8 @@ description: ''
 
 # Site navigation
 navigation:
-  - title: styleguide
-    url: styleguide/
+  - title: home
+    url: index/
   - title: grid
     url: grid/
 
