@@ -14,12 +14,39 @@
     &:hover {
         text-decoration: none;
     }
+
+    transition: all .2s;
+}
+
+.c-button--primary {
+    background-color: $primary;
+    color: $secondary;
+
+    &:hover {
+        color: $primary;
+        background-color: $secondary;
+    }
+}
+
+.c-button--secondary {
+    background-color: $secondary;
+    color: $white;
+
+    &:hover {
+        color: $secondary;
+        background-color: $white;
+    }
 }
 
 .c-button--inverted {
     background-color: $white;
     border: 3px solid $secondary;
     color: $secondary;
+
+    &:hover {
+        color: $secondary;
+        text-decoration: underline;
+    }
 }
 
 .c-button--vertical {
@@ -32,6 +59,11 @@
 .c-button--white {
     color: $secondary;
     background-color: $white;
+
+    &:hover {
+        color: $secondary;
+        background-color: $primary;
+    }
 }
 
 .c-button--sm {
@@ -48,16 +80,6 @@
     letter-spacing: 4px;
     padding: 20px 40px 15px 40px;
     font-size: 14px;
-}
-
-.c-button--primary {
-    background-color: $primary;
-    color: $secondary;
-}
-
-.c-button--secondary {
-    background-color: $secondary;
-    color: $white;
 }
 
 .c-button--menu {
