@@ -33,21 +33,8 @@ section: home
     <div class="c-row">
         <h2 class="text-center mb-5 u-letter-spacing">Onze meesterwerken</h2>
 
-        <div class="d-sm-flex mb-4">
+        {% include masterpieces.html limit="3" %}
 
-            <div class="col-12 col-sm-4 mb-4">
-                {% include masterpiece.html image="/img/png/michelangelo.png" title="Michelangelo" text="Burger, rode pesto, mozzarella, zongedroogde tomaatjes en rucola" %}
-            </div>
-
-            <div class="col-12 col-sm-4 mb-4">
-                {% include masterpiece.html image="/img/png/monet.png" title="Monet" text="Burger, brie, appel, pijnboompitten, honing en rucola" %}
-            </div>
-
-            <div class="col-12 col-sm-4 mb-4">
-                {% include masterpiece.html image="/img/png/bacon.png" title="Francis bacon" text="Burger, cheddar, spek, gedroogde ui, ketchup of mayonaise en rucola" %}
-            </div>
-
-        </div>
         <div class="text-center">
             <a href="" class="c-button c-button--primary c-button--lg">bekijk het volledige burgermenu</a>
         </div>
@@ -99,19 +86,6 @@ section: home
     <div class="col-12 col-md-6 u-no-spacing">
         <div class="c-background-image c-background-image--sm h-100" style="background-image: url(/img/png/on-the-road.png)">
 
-        </div>
-    </div>
-</div>
-
-<div class="c-background-primary d-flex align-items-center justify-content-center">
-    <div class="c-row">
-        <div class="text-center">
-            <img class="c-logo-small mb-4" src="/img/svg/logo-small.svg" alt="">
-            <h2 class="u-letter-spacing">festival, verjaardag, feestje? </h2>
-
-            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas urna lorem,  congue ullamcorper nunc auctor, dignissim euismod augue.</p>
-
-            <a href="" class="c-button c-button--secondary c-button--lg">bekijk het volledige burgermenu</a>
         </div>
     </div>
 </div>

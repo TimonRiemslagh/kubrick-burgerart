@@ -15,3 +15,26 @@
     width: 100%;
     height: auto;
 }
+
+.c-masterpiece-cta__content {
+    text-align: center;
+    position: relative;
+
+    &:after {
+        content: '';
+        position: absolute;
+        background-color: $primary;
+        border-radius: 50%;
+        padding-top: 100%;
+        width: 100%;
+        z-index: -1;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+}
+
+.c-masterpiece-cta {
+    padding: 0 20px;
+}

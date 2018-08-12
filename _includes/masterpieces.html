@@ -1,0 +1,39 @@
+<div class="d-sm-flex flex-wrap mb-4">
+
+    {% for meesterwerk in site.data.meesterwerken limit:2 %}
+
+    <div class="col-12 col-sm-4 mb-4">
+        <div class="c-masterpiece">
+            <img class="c-masterpiece__image mb-4" src="{{ meesterwerk.image }}" alt="">
+            <h4>{{ meesterwerk.title }}</h4>
+            <p>{{ meesterwerk.text }}</p>
+        </div>
+    </div>
+
+    {% endfor %}
+
+    {% if include.showcta==true %}
+    <div class="col-12 col-sm-4 mb-4">
+        <div class="c-masterpiece-cta">
+            <div class="c-masterpiece-cta__content">
+                <h2>customize your own  burger</h2>
+                <a href="/contact.html" class="c-button c-button--secondary c-button--sm">contact us</a>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+
+    {% for meesterwerk in site.data.meesterwerken limit:include.limit offset:4 %}
+
+    <div class="col-12 col-sm-4 mb-4">
+        <div class="c-masterpiece">
+            <img class="c-masterpiece__image mb-4" src="{{ meesterwerk.image }}" alt="">
+            <h4>{{ meesterwerk.title }}</h4>
+            <p>{{ meesterwerk.text }}</p>
+        </div>
+    </div>
+
+    {% endfor %}
+
+</div>
+

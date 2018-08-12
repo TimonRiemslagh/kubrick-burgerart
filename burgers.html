@@ -4,20 +4,18 @@ title: Homepage
 section: home
 ---
 
-
-
 <div class="c-hero c-hero--secondary">
 
     <div class="c-row c-row--sm">
         <div class="text-center">
             <img class="c-logo-small c-logo-small--about" src="/img/svg/logo-small-white.svg" alt="">
 
-            <h1 class="c-title-page">Burger art people</h1>
+            <h1 class="c-title-page">Onze meesterwerken</h1>
         </div>
     </div>
 
     <a href="" class="c-button c-button--vertical c-button--primary c-button--lg c-hero-secondary__vertical">
-        <img class="c-button__arrow" src="/img/svg/arrow-left.svg" alt=""> About
+        <img class="c-button__arrow" src="/img/svg/arrow-left.svg" alt=""> Burgers
     </a>
 
     <a href="" class="c-button c-button--menu c-hero__menu u-light js-show-sidebar" data-target=".js-sidebar" data-close=".js-close-sidebar" data-background=".js-sidebar-background">
@@ -29,11 +27,9 @@ section: home
 {% include navigation.html %}
 
 <div class="o-container">
-    <div class="c-row c-row--stacked">
-        {% include image-text.html direction="left" %}
+    <div class="c-row">
+
+    {% include masterpieces.html showcta=true %}
     </div>
 
-    <div class="c-row">
-        {% include image-text.html direction="right" %}
-    </div>
 </div>
