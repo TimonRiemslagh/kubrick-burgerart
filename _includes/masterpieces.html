@@ -13,14 +13,25 @@
     {% endfor %}
 
     {% if include.showcta==true %}
-    <div class="col-12 col-sm-4 mb-4">
+    <!--<div class="col-12 col-sm-4 mb-4">
         <div class="c-masterpiece-cta">
             <div class="c-masterpiece-cta__content">
                 <h2>customize your own  burger</h2>
-                <a href="/contact.html" class="c-button c-button--secondary c-button--sm">contact us</a>
+                <a href="/contact.html" class="c-button c-button&#45;&#45;secondary c-button&#45;&#45;sm">contact us</a>
             </div>
         </div>
+    </div>-->
+
+    <div class="col-12 col-sm-4 mb-4">
+        <a href="/contact.html">
+            <div class="c-masterpiece">
+                <img class="c-masterpiece__image mb-4" src="/img/svg/customize.svg" alt="">
+                <h4></h4>
+                <p></p>
+            </div>
+        </a>
     </div>
+
     {% endif %}
 
     {% for meesterwerk in site.data.meesterwerken limit:include.limit offset:4 %}

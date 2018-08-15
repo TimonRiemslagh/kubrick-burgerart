@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="300px" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Burgers" transform="translate(-970.000000, -608.000000)">
+            <g id="Group" transform="translate(970.000000, 608.000000)">
+                <circle id="Mask" fill="#FFB517" cx="150" cy="150" r="150"></circle>
+                <rect id="Rectangle-2" fill="#000000" x="77" y="212" width="147" height="43"></rect>
+                <text id="CONTACT-US" font-family="BebasNeueBold, Bebas Neue" font-size="22" font-weight="bold" letter-spacing="0.733333349" fill="#FFFFFF">
+                    <tspan x="107.200333" y="241">CONTACT US</tspan>
+                </text>
+                <text id="customIZE-YOUR-own-b" font-family="BebasNeueBold, Bebas Neue" font-size="42.5" font-weight="bold" line-spacing="42.5" letter-spacing="0.85" fill="#000000">
+                    <tspan x="74" y="102">customIZE</tspan>
+                    <tspan x="79.97125" y="144.5">YOUR own</tspan>
+                    <tspan x="93.0825" y="187"> burger</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
