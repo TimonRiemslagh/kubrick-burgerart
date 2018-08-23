@@ -7,11 +7,17 @@
 .c-masterpiece {
     display: flex;
     flex-direction: column;
-    padding: 0 20px;
+    padding: 0 20px 20px 20px;
     text-align: center;
 }
 
 .c-masterpiece__image {
     width: 100%;
     height: auto;
+}
+
+.c-masterpiece__desc {
+    font-size: 14px;
+    max-width: 170px;
+    margin: 0 auto;
 }
